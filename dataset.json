@@ -1,0 +1,25 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good afternoon", "Good evening"],
+        "responses": ["Hi, how are you?", "Hello!", "Hey there!","Hello, how are you today?","Hey there, how's your day going?","Hi, it's great to see you again!","Hey, what's up? How's everything going?","Hi there! How's your week been so far?","Hello! How's everything in your world?"]
+      },
+      {
+        "tag": "positive_feeling",
+        "patterns": ["I am fine", "Good", "Fine", "Great", "I'm good", "I'm great"],
+        "responses": ["Glad to hear that! How can I help you?","That's wonderful to hear! Is there anything specific you need assistance with?","I'm happy to hear that! What can I do for you today?","Great! Let me know if there's anything I can assist you with.","Awesome! Feel free to let me know if there's anything I can help you with.","Fantastic! How can I be of service to you?","Excellent! Is there something I can assist you with?","Lovely! What brings you here today? How may I assist you?"]
+      },
+      {
+        "tag": "unknown",
+        "patterns": ["Sorry, I don't understand", "Can you repeat that?", "I'm not sure what you mean"],
+        "responses": ["I'm sorry, I didn't understand that.", "Could you please rephrase that?", "I'm not sure what you mean."]
+      },
+      {
+        "tag": "not_feeling_well",
+        "patterns": ["not feeling well", "not well", "feeling sick"],
+        "responses": ["I'm sorry to hear that. Is there anything specific I can do to help?", "Take care. If there's anything I can do to make you feel better, just let me know."]
+      }
+    ]
+  }
+  
